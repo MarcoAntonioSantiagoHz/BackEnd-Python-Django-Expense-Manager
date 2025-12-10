@@ -1,5 +1,5 @@
 
-# Expenses Manager - Django Project
+### Expenses Manager - Django Project
 
 # Aplicación web para registrar gastos y pagos de una empresa. Desarrollado con **Django**, **Django REST Framework** y **SQL Server**.  
 
