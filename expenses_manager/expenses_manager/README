@@ -1,0 +1,48 @@
+
+
+
+# Expenses Manager - Django Project
+
+# Aplicación web para registrar gastos y pagos de una empresa. Desarrollado con **Django**, **Django REST Framework** y **SQL Server**.  
+
+# ---
+
+# ## Contenido del Proyecto
+
+# - `core_api`  
+#   Contiene la lógica principal del proyecto:
+#   - Modelos: `Account`, `Expense`, `Payment`
+#   - Serializadores
+#   - Servicios para manejo de lógica de negocio
+#   - Vistas para los endpoints de la API
+#   - Mensajes para respuestas de éxito/error
+# - `constants`  
+#   Contiene constantes como `CATEGORY_CHOICES` y `STATUS_CHOICES`
+# - `migrations`  
+#   Contiene las migraciones generadas por Django
+# - `expenses_manager/settings.py`  
+#   Configuración del proyecto Django, incluyendo la base de datos y apps instaladas
+
+# ---
+
+## Requisitos
+
+# - Python 3.13+
+# - Django 5.2+
+# - Django REST Framework
+# - pyodbc y driver ODBC para SQL Server
+# - Virtualenv (recomendado)
+
+# ---
+
+## Configuración del Entorno
+# enable run serve:
+# venv\Scripts\activate
+# commando check no errors in project
+# python manage.py check
+# run serve
+# python manage.py runserver
+# create migrations
+# python manage.py makemigrations
+# run migrations
+# python manage.py migrate
